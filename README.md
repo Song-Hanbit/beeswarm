@@ -61,6 +61,8 @@ You can visualize your results with any plotting packages.
 
 The resulted figure will be popped at the web browser.
 
+![alt text](https://github.com/Song-Hanbit/beeswarm/blob/main/figure1.png?raw=true)
+
 # Example
 
 Executing `example.py` 
@@ -71,4 +73,5 @@ python3 ~/beeswarm/example.py
 
 will result a figure:
 
+![alt text](https://github.com/Song-Hanbit/beeswarm/blob/main/example.png?raw=true)
 
