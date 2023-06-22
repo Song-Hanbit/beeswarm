@@ -74,15 +74,3 @@ def swarm(x0, ys, r):
             else: x = x0
         points.append(np.array([x, y]))
     return np.array(points)
-
-
-
-'''
-import numpy as np
-from beeswarm.beeswarm import *
-xy = swarm(0, np.random.uniform(0, 15, 30), 1)
-from bokeh.plotting import figure, show
-plot = figure(height=500, width=500, x_range=(-9, 9), y_range=(-1, 17))
-plot.scatter(x=xy[:, 0], y=xy[:, 1], marker='circle', radius=1, fill_alpha=0.1)
-show(plot)
-'''
