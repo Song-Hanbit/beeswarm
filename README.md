@@ -50,6 +50,10 @@ The input parameters of the function `swarm(x0, ys, r)` are:
 > 
 > `r` (*`float`* or *`int`*): The radius of data points given they are circles.
 
+and returns:
+
+> `coordinates` (*`np.ndarray`*) whose shape is `(len(ys), 2)`: `coordinates[:, 0]` and `coordinates[:, 1]` are x and y coordinates of the points.
+
 You can visualize your results with any plotting packages.
 
 > `input:`
