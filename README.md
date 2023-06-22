@@ -1,11 +1,12 @@
 # Beeswarm :honeybee:
-An algorithm for generating beeswarm plot coordinates of 1-dimensional data in Python.
+An algorithm for generating beeswarm plot (x, y) coordinates of 1-dimensional data in Python.
 
 # Depenencies
 These scripts were tested with the packages:
 ```
 numpy 1.24.3
 pandas 2.0.2
+bokeh 3.0.1 (optional)
 ```
 
 # Usage
